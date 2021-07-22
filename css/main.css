@@ -63,8 +63,11 @@ body {
     .header__inner .navigation .menu {
       display: none; }
     .header__inner .navigation .opened {
-      display: block; }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
     .header__inner .navigation ul {
+      height: 60vh;
       list-style: none;
       background-color: white;
       text-align: center;
