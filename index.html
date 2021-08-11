@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,87 +9,92 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@700;900&display=swap"
+    rel="stylesheet">
 
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 </head>
+
 <body>
-  <div class="container">
+    <div class="container">
 
-    <!-- HEADER -->
+      <!-- HEADER -->
 
-    <section class="header__block">
+      <section class="header__block">
 
-      <header class="header">
-        <div class="header__inner">
-          <div class="logo"></div>
-          <div class="hamburger" id="hamburger">
+        <header class="header">
+          <div class="header__inner">
+            <div class="logo"></div>
+            <div class="hamburger" id="hamburger">
               <span class="button" id="button">
                 <i></i>
                 <i></i>
                 <i></i>
               </span>
+            </div>
+            <nav class="navigation">
+              <span class="triangle" id="triangle"></span>
+              <ul class="menu" id="menu">
+                <li class="menu__links"><a href="#">About</a></li>
+                <li class="menu__links"><a href="#">Services</a></li>
+                <li class="menu__links"><a href="#">Projects</a></li>
+                <li class="menu__links active non-active" id="clicked"><a href="#" id="colored__white">contact</a></li>
+              </ul>
+            </nav>
+            <h1>we are creatives</h1>
+            <span class="icon__arrow">
+            </span>
           </div>
-          <nav class="navigation">
-            <span class="triangle" id="triangle"></span>
-            <ul class="menu" id="menu">
-              <li class="about"><a href="#">About</a></li>
-              <li class="services"><a href="#">Services</a></li>
-              <li class="projects"><a href="#">Projects</a></li>
-              <li class="contact active"><a href="#">contact</a></li>
-            </ul>
-          </nav>
-          <h1>we are creatives</h1>
-          <span class="icon__arrow">
-          </span>
-        </div>
-      </header>
+        </header>
 
-    </section>
+      </section>
 
-    <!-- PROMOTIONAL OFFERS -->
+      <!-- PROMOTIONAL OFFERS -->
 
-    <section class="offers">
+      <section class="offers">
 
         <div class="brand">
           <div class="inner__brand description">
             <h2>Transform your brand</h2>
-            <p class="text"> We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-            <a href="#" class="learn">learn more</a>
+            <p class="text"> We are a full-service creative agency specializing in helping brands grow fast. Engage your
+              clients through compelling visuals that do most of the marketing for you.</p>
+            <a href="#" class="learn underline yellow" id="yellow__underline">learn more</a>
           </div>
         </div>
 
         <div class="egg just__image"></div>
+
         <div class="wineglass just__image"></div>
 
         <div class="audience">
           <div class="inner__audience description">
             <h2>Stand out to the right audience</h2>
-            <p class="text">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-            <a href="#" class="learn">learn more</a>
+            <p class="text">Using a collaborative formula of designers, researchers, photographers, videographers, and
+              copywriters, we’ll build and extend your brand in digital places.</p>
+            <a href="#" class="learn underline pink" id="pink__underline">learn more</a>
           </div>
         </div>
 
         <div class="design">
           <div class="design__inner description">
             <h2>Graphic Design</h2>
-            <p class="text">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            <p class="text">Great design makes you memorable. We deliver artwork that underscores your brand message and
+              captures potential clients’ attention.</p>
           </div>
         </div>
 
         <div class="photography">
           <div class="photography__inner description">
             <h2>Photography</h2>
-            <p class="text">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            <p class="text">Increase your credibility by getting the most stunning, high-quality photos that improve your
+              business image.</p>
           </div>
 
         </div>
-
-      </div>
-    </section>
+      </section>
 
 
-    <!-- CLIENT'S PART -->
+        <!-- CLIENT'S PART -->
 
     <section class="clients">
 
@@ -96,54 +102,64 @@
 
       <div class="client__block">
         <div class="clients__face emily"></div>
-        <p class="clients__review">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <p class="clients__review">We put our trust in Sunnyside and they delivered, making sure our needs were met and
+          deadlines were always hit.</p>
         <span class="clients__name">Emily R.</span>
         <span class="clients__profession">Marketing Director</span>
       </div>
 
       <div class="client__block">
         <div class="clients__face thomas"></div>
-        <p class="clients__review">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <p class="clients__review">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it
+          a satisfying and enjoyable experience.</p>
         <span class="clients__name">Thomas S.</span>
         <span class="clients__profession">Chief Operating Officer</span>
       </div>
 
       <div class="client__block">
         <div class="clients__face jennie"></div>
-        <p class="clients__review"> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <p class="clients__review"> Incredible end result! Our sales increased over 400% when we worked with Sunnyside.
+          Highly recommended!</p>
         <span class="clients__name">Jennie F.</span>
         <span class="clients__profession">Business Owner</span>
       </div>
 
       <div class="four__images">
-        <div class="milk"></div>
-        <div class="orange"></div>
-        <div class="cone"></div>
-        <div class="sugar"></div>
+        <div class="milk bg__img"></div>
+        <div class="orange bg__img"></div>
+        <div class="cone bg__img"></div>
+        <div class="sugar bg__img"></div>
       </div>
     </section>
 
-<!-- FOOTER -->
+    <!-- FOOTER -->
 
-<section class="footer">
-  <footer>
-    <div class="green__logo">
-      <img src="images/logo.svg" alt="logo of company" class="colored__logo">
+  <section class="footer">
+    <footer>
+      <div class="green__logo">
+        <img src="images/logo.svg" alt="logo of company" class="colored__logo">
+      </div>
+      <ul class="contacts">
+        <li><a href="#" class="visited__contacts">About</a></li>
+        <li><a href="#" class="visited__contacts">Services</a></li>
+        <li><a href="#" class="visited__contacts">Projects</a></li>
+      </ul>
+      <ul class="social__media">
+        <li><a href="#" class="icon"><img src="/Sunnyside agency landing page/images/icon-facebook.svg"
+              alt="facebook logo"></a></li>
+        <li><a href="#" class="icon"><img src="/Sunnyside agency landing page/images/icon-instagram.svg"
+              alt="instagram logo"></a></li>
+        <li><a href="#" class="icon"><img src="/Sunnyside agency landing page/images/icon-twitter.svg"
+              alt="twitter logo"></a></li>
+        <li><a href="#" class="icon"><img src="/Sunnyside agency landing page/images/icon-pinterest.svg"
+              alt="pinterest logo"></a></li>
+      </ul>
+    </footer>
+  </section>
     </div>
-    <ul class="contacts">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Projects</a></li>
-    </ul>
-    <ul class="social__media">
-      <li><a href="#" class="facebook"><img src="/Sunnyside agency landing page/images/icon-facebook.svg" alt="facebook logo"></a></li>
-      <li><a href="#" class="facebook"><img src="/Sunnyside agency landing page/images/icon-instagram.svg" alt="instagram logo"></a></li>
-      <li><a href="#" class="facebook"><img src="/Sunnyside agency landing page/images/icon-twitter.svg" alt="twitter logo"></a></li>
-      <li><a href="#" class="facebook"><img src="/Sunnyside agency landing page/images/icon-pinterest.svg" alt="pinterest logo"></a></li>
-    </ul>
-  </footer>
-</section>
-  </div>
-<script src="script/script.js"></script>
+
+
+  <script src="script/script.js"></script>
 </body>
+
 </html>
